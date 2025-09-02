@@ -1,0 +1,24 @@
+{
+  "ideas": [
+    {
+      "username": "alex_dev",
+      "idea": "AI-powered code review assistant that learns from your team's coding patterns and automatically suggests improvements, catches bugs, and enforces style guidelines in real-time"
+    },
+    {
+      "username": "sarah_ux",
+      "idea": "Smart accessibility checker web extension that scans websites in real-time and provides instant feedback on accessibility issues with suggested fixes for developers"
+    },
+    {
+      "username": "mike_data",
+      "idea": "Blockchain-based carbon credit marketplace where individuals and companies can trade verified carbon offsets with transparent tracking and automated smart contracts"
+    },
+    {
+      "username": "jenny_health",
+      "idea": "Mental health chatbot using NLP to detect emotional patterns in text messages and proactively suggest coping strategies, meditation, or professional help resources"
+    },
+    {
+      "username": "tom_iot",
+      "idea": "IoT-enabled urban farming system with sensors for soil moisture, light, and nutrients that automatically optimizes growing conditions and predicts harvest times"
+    }
+  ]
+}
