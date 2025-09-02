@@ -1,0 +1,6 @@
+
+> ai-collective-avatar-app@1.0.0 build
+> react-scripts build
+
+'react-scripts' n'est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.

@@ -2,13 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="AI Collective - Present your projects with video avatars"
-    />
+    <meta name="theme-color" content="#667eea" />
+    <meta name="description" content="AI Collective - Present your projects with video avatars" />
     <title>AI Collective</title>
     <style>
       * {
@@ -22,10 +18,79 @@
         min-height: 100vh;
         overflow-x: hidden;
       }
+      .container {
+        max-width: 400px;
+        margin: 0 auto;
+        min-height: 100vh;
+        background: white;
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        padding: 20px;
+      }
+      .header {
+        text-align: center;
+        margin-bottom: 30px;
+        padding-top: 20px;
+      }
+      .header h1 {
+        font-size: 28px;
+        color: #333;
+        margin-bottom: 8px;
+      }
+      .header p {
+        color: #666;
+        font-size: 16px;
+      }
+      .btn {
+        padding: 16px 24px;
+        border: none;
+        border-radius: 25px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        text-align: center;
+        display: block;
+        margin: 10px 0;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+      }
+      .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+      }
     </style>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div class="container">
+      <div class="header">
+        <h1>AI Collective</h1>
+        <p>Present your projects with video avatars</p>
+      </div>
+      
+      <div>
+        <h2>🚀 Hackathon Project Ready!</h2>
+        <p>Your mobile-first video avatar app is deployed and ready for team collaboration.</p>
+        
+        <h3>Features:</h3>
+        <ul>
+          <li>Profile creation with video avatars</li>
+          <li>Tinder-like swipe interface</li>
+          <li>Mobile-optimized design</li>
+          <li>Supabase video storage</li>
+        </ul>
+        
+        <h3>Next Steps:</h3>
+        <ol>
+          <li>Set up Supabase database table</li>
+          <li>Configure environment variables</li>
+          <li>Test React build process</li>
+        </ol>
+        
+        <a href="https://github.com/IvandeMurard/AI-Collective-Side-Project" class="btn">
+          View GitHub Repository
+        </a>
+      </div>
+    </div>
   </body>
 </html>
