@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "public/index.html": {
+      "includeFiles": "public/**"
+    }
+  },
   "rewrites": [
     {
       "source": "/(.*)",
