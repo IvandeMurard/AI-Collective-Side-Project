@@ -1,13 +1,8 @@
 {
-  "functions": {
-    "public/index.html": {
-      "includeFiles": "public/**"
-    }
-  },
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/public/index.html"
+      "destination": "/index.html"
     }
   ]
 }

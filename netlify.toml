@@ -1,6 +1,6 @@
 [build]
-  publish = "public"
-  command = "echo 'Using static files'"
+  command = "npm run build"
+  publish = "build"
 
 [[redirects]]
   from = "/*"
